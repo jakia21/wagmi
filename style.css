@@ -651,8 +651,8 @@ nav {
 
 /* token-right */
 .token-right {
-  border: 1px solid rgba(255, 255, 255, 0);
-  background: rgba(255, 255, 255, 0.03);
+/*   border: 1px solid rgba(255, 255, 255, 0);
+  background: rgba(255, 255, 255, 0.03); */
   padding: 0px 80px 80px 80px;
   display: flex;
 }
