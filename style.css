@@ -276,10 +276,7 @@ nav {
 }
 
 .active {
-  background: var(
-    --Linear,
-    linear-gradient(135deg, #872cff 0%, #6dfb7d 100.76%)
-  );
+  background: white;
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
