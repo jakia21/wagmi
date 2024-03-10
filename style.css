@@ -524,7 +524,7 @@ nav {
 }
 
 .hero-title ul li a {
-  font-family: Kurri Island PERSONAL;
+  font-family: "Comic Sans", sans-serif;
   color: #000;
   font-size: 16px;
   font-style: normal;
@@ -1063,7 +1063,7 @@ body {
 }
 
 .menu-item ul li a {
-  font-family: Kurri Island PERSONAL;
+  font-family: "Comic Sans", sans-serif;
   font-size: 20px;
   font-weight: 400;
   color: #fff;
