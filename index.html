@@ -49,7 +49,10 @@
         <nav>
           <div class="menu-logo">
             <a href="#" class="logo"
-              ><img style="width: 80px" src="/img/logo.png" alt="logo"
+              ><img
+                style="width: 80px; border-radius: 10px"
+                src="/img/logo.png"
+                alt="logo"
             /></a>
           </div>
           <div class="menu-item d-flex">
@@ -120,7 +123,7 @@
     >
       <div class="offcanvas-header">
         <h5 class="offcanvas-title" id="offcanvasExampleLabel">
-          <a href="index.html"
+          <a href="/"
             ><img
               style="width: 120px"
               src="/img/logo.png"
@@ -192,11 +195,20 @@
           <div class="row g-0">
             <div class="col-md-6 col-lg-6">
               <div data-aos="fade-right" class="about-left">
-                <!-- <img src="/img/abt.gif" class="img-fluid" alt="" /> -->
-                <video autoplay loop style="max-width: 450px; width: 98%">
+                <img
+                  src="/img/abt.gif"
+                  class="img-fluid"
+                  style="border-radius: 10px; max-width: 450px; width: 98%"
+                />
+                <!-- <video
+                  autoplay
+                  loop
+                  style="max-width: 450px; width: 98%"
+                  id="myVideo"
+                >
                   <source src="/img/abt.webm" type="video/webm" />
                   Your browser does not support the video tag.
-                </video>
+                </video> -->
               </div>
             </div>
             <div class="col-md-6 col-lg-6">
@@ -247,7 +259,7 @@
 						<a href="contractlink"><img src="./dexs.png" class="img-fluid" alt=""></a>
 						</div>
 					</div>
-					<!-- <div class="col-md-4 col-lg-4">
+					 <div class="col-md-4 col-lg-4">
 						<div data-aos="zoom-in-up" class="pretners-items">
 							<a href="#"><img src="img/icon-4.svg" class="img-fluid" alt=""></a>
 						</div>
@@ -304,10 +316,20 @@
           <div class="custom-col-2s">
             <div class="token-right aos-init aos-animate" data-aos="fade-left">
               <div class="token-right-ll">
-                <video autoplay loop style="max-width: 450px; width: 98%">
+                <img
+                  src="/img/tkn.gif"
+                  alt=""
+                  style="max-width: 450px; width: 98%; border-radius: 10px"
+                />
+                <!-- <video
+                  autoplay
+                  loop
+                  style="max-width: 450px; width: 98%"
+                  id="myVideo"
+                >
                   <source src="/img/tkn.webm" type="video/webm" />
                   Your browser does not support the video tag.
-                </video>
+                </video> -->
               </div>
               <!-- <div class="token-right-rr">
                                 <h2>Token Distribution</h2>
@@ -341,10 +363,19 @@
               </li>
               <li class="rd-right-li">
                 <div class="rd-mp-left">
-                  <video autoplay loop style="max-width: 200px; width: 98%">
+                  <img
+                    src="/img/car.gif"
+                    style="width: 150px; border-radius: 10px"
+                  />
+                  <!-- <video
+                    autoplay
+                    loop
+                    style="max-width: 200px; width: 98%"
+                    id="myVideo"
+                  >
                     <source src="/img/car.webm" type="video/webm" />
                     Your browser does not support the video tag.
-                  </video>
+                  </video> -->
                 </div>
                 <div class="rd-mp-right">
                   <h2>Phase 1</h2>
@@ -363,10 +394,14 @@
               <li class="rd-left-li"><span>[ 2024 ]</span></li>
               <li class="rd-right-li">
                 <div class="rd-mp-left">
-                  <video autoplay loop style="max-width: 150px; width: 98%">
+                  <img
+                    src="/img/guy.gif"
+                    style="width: 150px; border-radius: 10px"
+                  />
+                  <!-- <video autoplay loop style="max-width: 150px; width: 98%">
                     <source src="/img/guy.webm" type="video/webm" />
                     Your browser does not support the video tag.
-                  </video>
+                  </video> -->
                 </div>
                 <div class="rd-mp-right">
                   <h2>Phase 2</h2>
@@ -382,10 +417,14 @@
               <li class="rd-left-li cbdr"><span>[ 2024 ]</span></li>
               <li class="rd-right-li">
                 <div class="rd-mp-left">
-                  <video autoplay loop style="max-width: 150px; width: 98%">
+                  <img
+                    src="/img/abt.gif"
+                    style="width: 150px; border-radius: 10px"
+                  />
+                  <!-- <video autoplay loop style="max-width: 150px; width: 98%">
                     <source src="/img/abt.webm" type="video/webm" />
                     Your browser does not support the video tag.
-                  </video>
+                  </video> -->
                 </div>
                 <div class="rd-mp-right">
                   <h2>Phase 3</h2>
@@ -453,7 +492,10 @@
       <div class="container">
         <div class="footer-wrapper">
           <a href="#"
-            ><img style="width: 150px" src="/img/logo.png" alt=""
+            ><img
+              style="width: 150px; border-radius: 10px"
+              src="/img/logo.png"
+              alt=""
           /></a>
           <p>© 2024 by Wagmi.!!</p>
         </div>
@@ -515,5 +557,12 @@
       <span class="pluse"></span>
       <span class="pluse2"></span>
     </a>
+    <script>
+      // You can also use window.onload or another event depending on your needs
+      document.addEventListener("DOMContentLoaded", function () {
+        var video = document.getElementById("myVideo");
+        video.play(); // This will autoplay the video when the page loads
+      });
+    </script>
   </body>
 </html>
